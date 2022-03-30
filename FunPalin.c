@@ -23,6 +23,7 @@ void palin(int a , int b)
 void main()
 {
     int x = 0;
+    printf("Enter A Number to check if it's Palindrome Or Not");
     scanf("%d", &x);
     int ans = reverse(x);
     palin(ans ,x);
